@@ -1,0 +1,19 @@
+git init : Créé un dossier git
+git config --global user.name'ShinyLucho' 
+git config --global user.mail 'm.louislagon@gmail.com' 
+git touch index.html : Créé fichier html
+git add index.html : Ajouter fichier html à git 
+git add . : Ajouter dossier entier à git 
+git status : Observe la liste des ajouts 
+git branch branche2 : Créé la branche 2
+git branch --list : Liste les branches
+git chekcout branche2 : Bascule en branche 2
+git commit -m 'Chirac' : Créé les modificiations dans git (et nomme la modif Chirac)
+
+
+git remote add origin https://github.com/ShinyLucho/Premierpas.git : déclare l'adresse en origine
+  git branch -M main : on se place dans main 
+  git push -u origin main : On push les modifs dans le projet 
+
+git clone https://github.com/ShinyLucho/Premierpas.git : On clone les données dans le projet
+git pull origin ma_branche : Récupère les modifs
